@@ -1,0 +1,48 @@
+2025-12-24 17:19:32 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 28200 (C:\Users\user\IdeaProjects\Catsgram\target\classes started by user in C:\Users\user\IdeaProjects\Catsgram)
+2025-12-24 17:19:32 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-24 17:19:32 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-24 17:19:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-24 17:19:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-24 17:19:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-24 17:19:32 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 723 ms
+2025-12-24 17:19:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-24 17:19:33 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-24 17:19:33 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.52 seconds (process running for 2.575)
+2025-12-24 17:19:45 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-24 17:19:45 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-24 17:24:46 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 32396 (C:\Users\user\IdeaProjects\Catsgram\target\classes started by user in C:\Users\user\IdeaProjects\Catsgram)
+2025-12-24 17:24:46 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-24 17:24:46 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-24 17:24:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-24 17:24:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-24 17:24:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-24 17:24:46 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 722 ms
+2025-12-24 17:24:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-24 17:24:47 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-24 17:24:47 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.612 seconds (process running for 2.63)
+2025-12-24 17:25:49 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-24 17:25:49 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-24 17:27:29 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 29104 (C:\Users\user\IdeaProjects\Catsgram\target\classes started by user in C:\Users\user\IdeaProjects\Catsgram)
+2025-12-24 17:27:29 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-24 17:27:30 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-12-24 17:27:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-12-24 17:27:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-24 17:27:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-24 17:27:30 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 738 ms
+2025-12-24 17:27:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-12-24 17:27:31 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-12-24 17:27:31 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.596 seconds (process running for 2.53)
+2025-12-24 17:27:34 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-24 17:27:34 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-12-24 17:28:16 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 19340 (C:\Users\user\IdeaProjects\Catsgram\target\classes started by user in C:\Users\user\IdeaProjects\Catsgram)
+2025-12-24 17:28:16 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-24 17:28:17 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-12-24 17:28:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-12-24 17:28:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-24 17:28:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-24 17:28:17 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 758 ms
+2025-12-24 17:28:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-12-24 17:28:17 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-12-24 17:28:17 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.63 seconds (process running for 2.532)
+2025-12-24 17:28:19 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-24 17:28:19 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
