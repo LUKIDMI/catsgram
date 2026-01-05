@@ -46,9 +46,6 @@ public class UserController {
                     && isDuplicateEmail(newUser.getEmail())) {
                 throw new DuplicatedDataException("Этот имейл уже используется");
             }
-        }
-
-        if (newUser.getEmail() != null) {
             oldUser.setEmail(newUser.getEmail());
         }
 
