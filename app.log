@@ -438,3 +438,18 @@ ru.yandex.practicum.catsgram.exception.ConditionsNotMetException: Пользов
 2026-01-06 02:50:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-06 02:50:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2026-01-06 02:50:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2026-01-06 02:54:58 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:54:58 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:55:02 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 6272 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:55:02 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:55:03 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:55:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:55:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:55:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:55:03 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 619 ms
+2026-01-06 02:55:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:55:03 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:55:03 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.172 seconds (process running for 1.569)
+2026-01-06 02:55:06 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:55:06 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:55:06 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
