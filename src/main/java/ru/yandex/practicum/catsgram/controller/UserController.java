@@ -1,5 +1,6 @@
 package ru.yandex.practicum.catsgram.controller;
 
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,11 +18,11 @@ public class UserController {
 
     private final Map<Long, User> users = new HashMap<>();
 
-    public User create(@RequestBody User user){
-        if(user.getEmail().isBlank()){
+    public User create(@RequestBody User user) {
+        if (user.getEmail().isBlank()) {
             throw new ConditionsNotMetException("Имейл должен быть указан");
         }
-        if(isDuplicateEmail(user.getEmail())){
+        if (isDuplicateEmail(user.getEmail())) {
             throw new DuplicatedDataException("Этот имейл уже используется");
         }
         user.setId(getNextId());
@@ -30,7 +31,19 @@ public class UserController {
         return user;
     }
 
-    private boolean isDuplicateEmail(String email){
+    @PostMapping
+    public User update(User newUser) {
+        Long newUserId = newUser.getId();
+        if (newUserId != null && users.containsKey(newUserId)) {
+            User oldUser = users.get(newUserId);
+            if (!oldUser.getEmail().equals(newUser.getEmail()) && isDuplicateEmail(newUser.getEmail())) {
+                throw new DuplicatedDataException("Этот имейл уже используется");
+            }
+        }
+        throw new ConditionsNotMetException("Id должен быть указан");
+    }
+
+    private boolean isDuplicateEmail(String email) {
         return users.values().stream().anyMatch(user -> user.getEmail().equals(email));
     }
 
