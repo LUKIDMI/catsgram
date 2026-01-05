@@ -33,14 +33,17 @@ public class UserController {
 
     @PostMapping
     public User update(User newUser) {
-        Long newUserId = newUser.getId();
-        if (newUserId != null && users.containsKey(newUserId)) {
-            User oldUser = users.get(newUserId);
-            if (!oldUser.getEmail().equals(newUser.getEmail()) && isDuplicateEmail(newUser.getEmail())) {
-                throw new DuplicatedDataException("Этот имейл уже используется");
-            }
+        if (newUser.getId() == null) {
+            throw new ConditionsNotMetException("Id должен быть указан");
         }
-        throw new ConditionsNotMetException("Id должен быть указан");
+        if(users.containsKey(newUser.getId)){
+            User oldUser = users.get(newUser.getId())
+            if(!oldUser.getEmail().equals(newUser.getEmail() && isDublicateEmail(newUser.getEmail()){
+                throw new DublicateDataexception():
+            }
+            
+        }
+        throw new ConditionsNotMetException();
     }
 
     private boolean isDuplicateEmail(String email) {
