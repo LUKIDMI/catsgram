@@ -85,3 +85,356 @@
 2026-01-05 16:44:12 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.981 seconds (process running for 3.186)
 2026-01-05 16:44:20 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
 2026-01-05 16:44:20 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:15:01 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 6132 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:15:01 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:15:02 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-01-06 02:15:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-01-06 02:15:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:15:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:15:02 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 814 ms
+2026-01-06 02:15:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-01-06 02:15:03 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-01-06 02:15:03 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.544 seconds (process running for 2.231)
+2026-01-06 02:16:49 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:16:49 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:17:12 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 18284 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:17:12 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:17:13 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:17:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:17:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:17:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:17:13 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 674 ms
+2026-01-06 02:17:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:17:13 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-01-06 02:17:13 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-06 02:17:13 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-01-06 02:17:58 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 4232 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:17:58 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:17:59 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:17:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:17:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:17:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:17:59 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 730 ms
+2026-01-06 02:17:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:17:59 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-01-06 02:17:59 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-06 02:17:59 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-01-06 02:22:26 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 12480 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:22:26 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:22:26 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:22:26 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:22:26 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:22:26 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:22:27 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 634 ms
+2026-01-06 02:22:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:22:27 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:22:27 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.24 seconds (process running for 1.642)
+2026-01-06 02:22:43 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:22:43 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:22:43 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-06 02:22:43 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-01-06 02:22:43 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2026-01-06 02:23:38 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:23:38 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:24:03 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 10540 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:24:03 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:24:04 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:24:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:24:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:24:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:24:04 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 687 ms
+2026-01-06 02:24:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:24:04 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:24:04 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.249 seconds (process running for 1.645)
+2026-01-06 02:24:14 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:24:14 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:24:14 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-01-06 02:24:14 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-01-06 02:24:14 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2026-01-06 02:25:48 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:25:48 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:27:06 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 3420 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:27:06 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:27:07 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:27:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:27:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:27:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:27:07 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 649 ms
+2026-01-06 02:27:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:27:07 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:27:07 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.269 seconds (process running for 1.662)
+2026-01-06 02:27:17 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:27:17 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:27:17 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-01-06 02:30:42 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:30:42 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:30:46 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 17016 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:30:46 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:30:47 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:30:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:30:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:30:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:30:47 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 626 ms
+2026-01-06 02:30:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:30:47 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:30:47 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.181 seconds (process running for 1.593)
+2026-01-06 02:30:59 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:30:59 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:30:59 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-01-06 02:33:28 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:33:28 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:33:33 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 20256 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:33:33 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:33:33 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:33:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:33:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:33:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:33:33 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 626 ms
+2026-01-06 02:33:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:33:34 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:33:34 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.25 seconds (process running for 1.682)
+2026-01-06 02:33:41 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:33:41 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:33:41 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-06 02:33:41 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: ru.yandex.practicum.catsgram.exception.ConditionsNotMetException: Имя должно быть указано] with root cause
+ru.yandex.practicum.catsgram.exception.ConditionsNotMetException: Имя должно быть указано
+	at ru.yandex.practicum.catsgram.controller.UserController.create(UserController.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-01-06 02:33:41 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: ru.yandex.practicum.catsgram.exception.ConditionsNotMetException: Пользователь с id = 1 не найден] with root cause
+ru.yandex.practicum.catsgram.exception.ConditionsNotMetException: Пользователь с id = 1 не найден
+	at ru.yandex.practicum.catsgram.controller.UserController.update(UserController.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-01-06 02:33:53 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:33:53 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:33:57 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 14572 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:33:57 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:33:58 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:33:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:33:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:33:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:33:58 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 774 ms
+2026-01-06 02:33:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:33:58 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:33:58 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.58 seconds (process running for 2.014)
+2026-01-06 02:34:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:34:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:34:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-06 02:34:58 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:34:58 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:35:37 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 21004 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:35:37 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:35:38 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:35:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:35:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:35:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:35:38 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 636 ms
+2026-01-06 02:35:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:35:38 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:35:38 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.196 seconds (process running for 1.589)
+2026-01-06 02:36:08 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:36:08 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:36:08 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-01-06 02:38:58 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:38:58 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:39:02 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 19296 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:39:02 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:39:03 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:39:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:39:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:39:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:39:03 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 624 ms
+2026-01-06 02:39:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:39:03 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:39:03 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.193 seconds (process running for 1.588)
+2026-01-06 02:39:07 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:39:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:39:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-06 02:39:25 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:39:25 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:39:29 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 16156 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:39:29 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:39:30 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:39:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:39:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:39:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:39:30 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 643 ms
+2026-01-06 02:39:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:39:30 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:39:30 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.244 seconds (process running for 1.649)
+2026-01-06 02:39:35 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:39:35 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:39:35 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-06 02:41:15 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:41:15 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:41:18 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 10932 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:41:18 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:41:19 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:41:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:41:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:41:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:41:19 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 663 ms
+2026-01-06 02:41:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:41:19 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:41:19 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.251 seconds (process running for 1.709)
+2026-01-06 02:41:23 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:41:23 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:41:23 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-06 02:42:27 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:42:27 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:42:32 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 15824 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:42:32 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:42:32 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:42:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:42:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:42:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:42:32 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 616 ms
+2026-01-06 02:42:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:42:33 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:42:33 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.173 seconds (process running for 1.566)
+2026-01-06 02:42:37 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:42:37 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:42:37 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-06 02:44:59 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:44:59 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:45:05 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 17456 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:45:05 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:45:05 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:45:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:45:05 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:45:05 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:45:05 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 613 ms
+2026-01-06 02:45:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:45:06 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:45:06 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.174 seconds (process running for 1.585)
+2026-01-06 02:45:09 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:45:09 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:45:09 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-06 02:49:54 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-06 02:49:54 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-06 02:49:57 [main] INFO  r.y.p.catsgram.CatsgramApplication - Starting CatsgramApplication using Java 21.0.9 with PID 10340 (C:\Users\LUKIDMI\IdeaProjects\catsgram\target\classes started by LUKIDMI in C:\Users\LUKIDMI\IdeaProjects\catsgram)
+2026-01-06 02:49:57 [main] INFO  r.y.p.catsgram.CatsgramApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 02:49:58 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-01-06 02:49:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:49:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-06 02:49:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-06 02:49:58 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 618 ms
+2026-01-06 02:49:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-06 02:49:58 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-01-06 02:49:58 [main] INFO  r.y.p.catsgram.CatsgramApplication - Started CatsgramApplication in 1.198 seconds (process running for 1.587)
+2026-01-06 02:50:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-06 02:50:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-06 02:50:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
