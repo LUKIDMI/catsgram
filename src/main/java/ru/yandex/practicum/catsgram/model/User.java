@@ -1,5 +1,6 @@
 package ru.yandex.practicum.catsgram.model;
 
+import jakarta.validation.constraints.NotNull;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -13,6 +14,7 @@ import java.time.Instant;
 public class User {
     Long id;
     String username;
+    @NotNull(message = "Имейл должен быть указан")
     String email;
     String password;
     Instant registrationDate;
