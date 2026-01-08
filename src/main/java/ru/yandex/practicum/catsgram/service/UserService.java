@@ -16,7 +16,7 @@ public class UserService {
 
     private final Map<Long, User> users = new HashMap<>();
 
-    public Collection<User> getAllUsers(){
+    public Collection<User> getAllUsers() {
         return users.values();
     }
 
@@ -76,7 +76,7 @@ public class UserService {
         return users.values().stream().anyMatch(user -> user.getEmail().equals(email));
     }
 
-    public Optional<User> findUserById(Long id){
+    public Optional<User> findUserById(Long id) {
         User user = users.get(id);
         return Optional.ofNullable(user);
     }
