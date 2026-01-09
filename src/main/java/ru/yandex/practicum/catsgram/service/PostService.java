@@ -10,6 +10,7 @@ import java.time.Instant;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 
 
 @Service
@@ -22,7 +23,12 @@ public class PostService {
         this.userService = userService;
     }
 
-    public Collection<Post> findAll() {
+    public Post getPostById(Long id){
+        return Optional.ofNullable(posts.get(id))
+                .orElseThrow(() -> new ConditionsNotMetException("Пост с id " + id + " не найден"));
+    }
+
+    public Collection<Post> findAllPosts() {
         return posts.values();
     }
 

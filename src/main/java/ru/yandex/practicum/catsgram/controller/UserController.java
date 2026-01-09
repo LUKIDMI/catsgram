@@ -16,6 +16,12 @@ public class UserController {
     private final UserService userService;
 
     @GetMapping
+    @RequestMapping("/{id}")
+    public User getPostById(@PathVariable  Long id){
+        return userService.getUserById(id);
+    }
+
+    @GetMapping
     public Collection<User> getAllUsers() {
         return userService.getAllUsers();
     }

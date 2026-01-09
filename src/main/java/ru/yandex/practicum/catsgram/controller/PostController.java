@@ -16,8 +16,14 @@ public class PostController {
     private final PostService postService;
 
     @GetMapping
-    public Collection<Post> findAll() {
-        return postService.findAll();
+    @RequestMapping("/{id}")
+    public Post getPostById(@PathVariable  Long id){
+        return postService.getPostById(id);
+    }
+
+    @GetMapping
+    public Collection<Post> findAllPosts() {
+        return postService.findAllPosts();
     }
 
     @PostMapping
