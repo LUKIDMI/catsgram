@@ -22,7 +22,7 @@ public class UserService {
                 .orElseThrow(() -> new ConditionsNotMetException("пользователь с id = " + id + " не найден"));
     }
 
-    public Collection<User> getAllUsers() {
+    public Collection<User> findAllUsers() {
         return users.values();
     }
 
@@ -30,7 +30,7 @@ public class UserService {
         if (user.getEmail() == null || user.getEmail().isBlank()) {
             throw new ConditionsNotMetException("Имейл должен быть указан");
         }
-        if ((users.containsValue(user))) {
+        if (isEmailTaken(user.getEmail())) {
             throw new DuplicatedDataException("Этот имейл уже используется");
         }
         user.setId(getNextId());
@@ -43,27 +43,37 @@ public class UserService {
         if (newUser.getId() == null) {
             throw new ConditionsNotMetException("Id должен быть указан");
         }
-        if (users.containsKey(newUser.getId())) {
-            User oldUser = users.get(newUser.getId());
-            if (!oldUser.getEmail().equalsIgnoreCase(newUser.getEmail()) && users.containsValue(newUser)) {
-                throw new DuplicatedDataException("Этот имейл уже используется");
-            }
-            updateUserFields(oldUser, newUser);
-            return oldUser;
+        User oldUser = users.get(newUser.getId());
+        if (oldUser == null) {
+            throw new NotFoundException("Пользователь с id = " + newUser.getId() + " не найден");
         }
-        throw new NotFoundException("Пользователь с id = " + newUser.getId() + " не найден");
+        checkEmailDuplicate(newUser, oldUser);
+        updateUserFields(oldUser, newUser);
+        return oldUser;
+    }
+
+    private void checkEmailDuplicate(User newUser, User oldUser) {
+        if (newUser.getEmail() != null && !newUser.getEmail().isBlank()){
+            if(!oldUser.getEmail().equalsIgnoreCase(newUser.getEmail())){
+                if(isEmailTaken(newUser.getEmail())){
+                    throw new DuplicatedDataException("Имейл " + newUser.getEmail() + " уже занят");
+                }
+            }
+        }
+    }
+
+    private boolean isEmailTaken(String email) {
+        return users.values().stream().anyMatch(user -> user.getEmail().equalsIgnoreCase(email));
     }
 
     //Метод обновления полей пользователя
     private void updateUserFields(User oldUser, User newUser) {
-        if (newUser.getEmail() != null && !newUser.getEmail().isBlank()) {
+        if(newUser.getEmail() != null && !newUser.getEmail().isBlank()){
             oldUser.setEmail(newUser.getEmail());
         }
-
         if (newUser.getUsername() != null && !newUser.getUsername().isBlank()) {
             oldUser.setUsername(newUser.getUsername());
         }
-
         if (newUser.getPassword() != null && !newUser.getPassword().isBlank()) {
             oldUser.setPassword(newUser.getPassword());
         }

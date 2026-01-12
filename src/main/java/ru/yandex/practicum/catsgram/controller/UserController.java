@@ -7,7 +7,6 @@ import ru.yandex.practicum.catsgram.model.User;
 import ru.yandex.practicum.catsgram.service.UserService;
 import java.util.Collection;
 
-
 @RestController
 @RequestMapping("/users")
 @AllArgsConstructor
@@ -17,13 +16,13 @@ public class UserController {
 
     @GetMapping
     @RequestMapping("/{id}")
-    public User getPostById(@PathVariable  Long id){
+    public User getUserById(@PathVariable  Long id){
         return userService.getUserById(id);
     }
 
     @GetMapping
-    public Collection<User> getAllUsers() {
-        return userService.getAllUsers();
+    public Collection<User> findAllUsers() {
+        return userService.findAllUsers();
     }
 
     @PostMapping
