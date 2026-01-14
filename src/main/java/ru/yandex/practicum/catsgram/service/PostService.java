@@ -5,30 +5,63 @@ import org.springframework.stereotype.Service;
 import ru.yandex.practicum.catsgram.exception.ConditionsNotMetException;
 import ru.yandex.practicum.catsgram.exception.NotFoundException;
 import ru.yandex.practicum.catsgram.model.Post;
+import ru.yandex.practicum.catsgram.model.enums.SortOrder;
 
 import java.time.Instant;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.stream.Collectors;
 
 
 @Service
 public class PostService {
     private final Map<Long, Post> posts = new HashMap<>();
     private final UserService userService;
+    private final AtomicLong idGenerator = new AtomicLong(0);
 
     @Autowired
     public PostService(UserService userService) {
         this.userService = userService;
     }
 
-    public Post getPostById(Long id){
+    public Post getPostById(Long id) {
         return Optional.ofNullable(posts.get(id))
                 .orElseThrow(() -> new ConditionsNotMetException("Пост с id " + id + " не найден"));
     }
 
-    public Collection<Post> findAllPosts() {
+    public Collection<Post> findAll(String sort, int from, int size) {
+        if(size < 0){
+            throw new ConditionsNotMetException("Количество постов не может быть меньше нуля");
+        }
+
+        List<Post> sortedPosts = posts.values()
+                .stream()
+                .sorted(Comparator.comparing(Post::getPostDate))
+                .collect(Collectors.toList());
+
+        SortOrder sortOrder = SortOrder.from(sort);
+        if(sortOrder == null){
+            sortOrder = SortOrder.ASCENDING;
+        }
+
+        switch(sortOrder){
+            case ASCENDING -> {
+                return sortedPosts
+                        .stream()
+                        .skip(from)
+                        .limit(size)
+                        .collect(Collectors.toList());
+            }
+            case DESCENDING -> {
+                Collections.reverse(sortedPosts);
+                return sortedPosts
+                        .stream()
+                        .skip(from)
+                        .limit(size)
+                        .collect(Collectors.toList());
+            }
+        }
+
         return posts.values();
     }
 
@@ -41,7 +74,7 @@ public class PostService {
         userService.findUserById(authorId).orElseThrow(()
                 -> new ConditionsNotMetException("Автора с id " + authorId + " не найден."));
 
-        post.setId(getNextId());
+        post.setId(idGenerator.incrementAndGet());
         post.setPostDate(Instant.now());
         posts.put(post.getId(), post);
         return post;
@@ -61,14 +94,5 @@ public class PostService {
             return oldPost;
         }
         throw new NotFoundException("Пост с id = " + newPost.getId() + " не найден");
-    }
-
-    private long getNextId() {
-        long currentMaxId = posts.keySet()
-                .stream()
-                .mapToLong(id -> id)
-                .max()
-                .orElse(0);
-        return ++currentMaxId;
     }
 }
