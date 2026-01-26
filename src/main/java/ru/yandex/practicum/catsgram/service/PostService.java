@@ -62,7 +62,10 @@ public class PostService {
             }
         }
 
-        return posts.values();
+        return posts.values()
+                .stream()
+                .limit(size)
+                .collect(Collectors.toList());
     }
 
     public Post create(Post post) {
