@@ -30,7 +30,7 @@ public class PostService {
     }
 
     public Collection<Post> findAll(String sort, int from, int size) {
-        if(size < 0){
+        if (size < 0) {
             throw new ConditionsNotMetException("Количество постов не может быть меньше нуля");
         }
 
@@ -38,32 +38,24 @@ public class PostService {
                 .stream()
                 .sorted(Comparator.comparing(Post::getPostDate))
                 .collect(Collectors.toList());
-
         SortOrder sortOrder = SortOrder.from(sort);
-        if(sortOrder == null){
+
+        if (sortOrder == null) {
             sortOrder = SortOrder.ASCENDING;
         }
 
-        switch(sortOrder){
-            case ASCENDING -> {
-                return sortedPosts
-                        .stream()
-                        .skip(from)
-                        .limit(size)
-                        .collect(Collectors.toList());
-            }
-            case DESCENDING -> {
-                Collections.reverse(sortedPosts);
-                return sortedPosts
-                        .stream()
-                        .skip(from)
-                        .limit(size)
-                        .collect(Collectors.toList());
-            }
+        if (sortOrder == SortOrder.DESCENDING) {
+            Collections.reverse(sortedPosts);
+            return sortedPosts
+                    .stream()
+                    .skip(from)
+                    .limit(size)
+                    .collect(Collectors.toList());
         }
 
         return posts.values()
                 .stream()
+                .skip(from)
                 .limit(size)
                 .collect(Collectors.toList());
     }
