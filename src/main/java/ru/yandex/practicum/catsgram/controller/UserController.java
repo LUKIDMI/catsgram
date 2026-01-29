@@ -5,18 +5,17 @@ import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import ru.yandex.practicum.catsgram.model.User;
 import ru.yandex.practicum.catsgram.service.UserService;
+
 import java.util.Collection;
 
 @RestController
 @RequestMapping("/users")
 @AllArgsConstructor
 public class UserController {
-
     private final UserService userService;
 
-    @GetMapping
-    @RequestMapping("/{id}")
-    public User getUserById(@PathVariable  Long id){
+    @GetMapping("/{id}")
+    public User getUserById(@PathVariable Long id) {
         return userService.getUserById(id);
     }
 

@@ -53,9 +53,9 @@ public class UserService {
     }
 
     private void checkEmailDuplicate(User newUser, User oldUser) {
-        if (newUser.getEmail() != null && !newUser.getEmail().isBlank()){
-            if(!oldUser.getEmail().equalsIgnoreCase(newUser.getEmail())){
-                if(isEmailTaken(newUser.getEmail())){
+        if (newUser.getEmail() != null && !newUser.getEmail().isBlank()) {
+            if (!oldUser.getEmail().equalsIgnoreCase(newUser.getEmail())) {
+                if (isEmailTaken(newUser.getEmail())) {
                     throw new DuplicatedDataException("Имейл " + newUser.getEmail() + " уже занят");
                 }
             }
@@ -68,7 +68,7 @@ public class UserService {
 
     //Метод обновления полей пользователя
     private void updateUserFields(User oldUser, User newUser) {
-        if(newUser.getEmail() != null && !newUser.getEmail().isBlank()){
+        if (newUser.getEmail() != null && !newUser.getEmail().isBlank()) {
             oldUser.setEmail(newUser.getEmail());
         }
         if (newUser.getUsername() != null && !newUser.getUsername().isBlank()) {

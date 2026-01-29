@@ -12,19 +12,17 @@ import java.util.Collection;
 @RequestMapping("/posts")
 @RequiredArgsConstructor
 public class PostController {
-
     private final PostService postService;
 
-    @GetMapping
-    @RequestMapping("/{id}")
-    public Post getPostById(@PathVariable  Long id){
+    @GetMapping("/{id}")
+    public Post getPostById(@PathVariable Long id) {
         return postService.getPostById(id);
     }
 
     @GetMapping
-    public Collection<Post> findAll(@RequestParam(defaultValue = "desc", required = false) String sort,
-                                    @RequestParam(defaultValue = "0", required = false) int from,
-                                    @RequestParam(defaultValue = "10", required = false) int size) {
+    public Collection<Post> findAll(@RequestParam(defaultValue = "desc") String sort,
+                                    @RequestParam(defaultValue = "0") int from,
+                                    @RequestParam(defaultValue = "10") int size) {
         return postService.findAll(sort, from, size);
     }
 
