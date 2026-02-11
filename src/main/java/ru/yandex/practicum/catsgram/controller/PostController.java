@@ -1,6 +1,8 @@
 package ru.yandex.practicum.catsgram.controller;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import ru.yandex.practicum.catsgram.model.Post;
 import ru.yandex.practicum.catsgram.service.PostService;
@@ -27,7 +29,8 @@ public class PostController {
     }
 
     @PostMapping
-    public Post create(@RequestBody Post post) {
+    @ResponseStatus(HttpStatus.CREATED)
+    public Post create(@Valid @RequestBody Post post) {
         return postService.create(post);
     }
 
